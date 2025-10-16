@@ -9,7 +9,7 @@ class BOT:
     """
     TOKEN: Bot token generated from @BotFather
     """
-    TOKEN = os.environ.get("TOKEN", "")
+    TOKEN = os.environ.get("TOKEN", "8238354245:AAH8Fmua9WaDCmEOHGXdwLyifNO-DuhyHZQ")
 
 
 class API:
@@ -17,22 +17,22 @@ class API:
     HASH: Telegram API hash from https://my.telegram.org
     ID = Telegram API ID from https://my.telegram.org
     """
-    HASH = os.environ.get("API_HASH", "")
-    ID = int(os.environ.get("API_ID", 0))
+    HASH = os.environ.get("API_HASH", "e52b1041b60710a24b78d9b0836a81c8")
+    ID = int(os.environ.get("API_ID", 22575776))
 
 
 class OWNER:
     """
     ID: Owner's user id, get it from @userinfobot
     """
-    ID = int(os.environ.get("OWNER", 0))
+    ID = int(os.environ.get("OWNER", 7640268111))
 
 
 class CHANNEL:
     """
     ID: Telegram Channel ID where the bot will post automatically
     """
-    ID = int(os.environ.get("CHANNEL_ID", 0))
+    ID = int(os.environ.get("CHANNEL_ID", -1003121927787))
 
 
 class WEB:
@@ -40,3 +40,4 @@ class WEB:
     PORT: Specific port no. on which you want to run your bot, DON'T TOUCH IT IF YOU DON'T KNOW WHAT IS IT.
     """
     PORT = int(os.environ.get("PORT", 8000))
+
