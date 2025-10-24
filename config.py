@@ -32,7 +32,7 @@ class CHANNEL:
     """
     ID: Telegram Channel ID where the bot will post automatically
     """
-    ID = int(os.environ.get("CHANNEL_ID", -1003121927787))
+    ID = int(os.environ.get("CHANNEL_ID", -1003270484467))
 
 
 class WEB:
@@ -40,5 +40,6 @@ class WEB:
     PORT: Specific port no. on which you want to run your bot, DON'T TOUCH IT IF YOU DON'T KNOW WHAT IS IT.
     """
     PORT = int(os.environ.get("PORT", 8000))
+
 
 
