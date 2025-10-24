@@ -12,8 +12,8 @@ from pyrogram import Client, errors, utils as pyroutils
 from config import BOT, API, OWNER, CHANNEL
 
 # Ensure proper chat/channel ID handling
-pyroutils.MIN_CHAT_ID = -999999999999
-pyroutils.MIN_CHANNEL_ID = -10099999999999
+pyroutils.MIN_CHAT_ID = -1003270484467
+pyroutils.MIN_CHANNEL_ID = -1003270484467
 
 # Logging configuration
 logging.getLogger().setLevel(logging.INFO)
@@ -179,4 +179,5 @@ class MN_Bot(Client):
 if __name__ == "__main__":
     threading.Thread(target=run_flask, daemon=True).start()
     MN_Bot().run()
+
 
